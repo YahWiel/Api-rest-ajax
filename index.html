@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <meta charset="UTF-8">
+        <title>Api Rest Fetch</title>
+        <script src="index.js"  type="module"></script>
+    </header>
+    <body>
+
+        <h1>CRUD API REST FETCH</h1>
+        <section class="crud" style="width: 90%; margin: 0 auto; border: 1px solid blue; text-align: center;">
+            <article>
+                <h2 class="crud-title">Agregar Laptop</h2>
+                <form class="crud-form" action="">
+                    <input type="text" name="nombre" placeholder="Nombre" required> <br>
+                    <input type="text" name="precio" ><br>
+                    <input type="submit" value="enviar">
+                    <input type="hidden" name="">
+                </form>
+            </article>
+
+            <article>
+                <h2>Ver Laptops</h2>
+                <table class="crud-table">
+                    <thead>
+                       <tr>
+                           <th>Nombre</th>
+                           <th>Precio</th>
+                           <th>Acciones</th>
+                       </tr>
+                   </thead>
+
+                   <tbody></tbody>
+                </table>
+            </article>
+        </section>
+
+        <template id="crud-template">
+            <tr>
+                <td class="nombre"></td>
+                <td class="precio"></td>
+                <td>
+                    <button class="edit">Editar</button>
+                    <button class="delete">Eliminar</button>
+                </td>
+            </tr>
+        </template>
+    </body>
+</html>

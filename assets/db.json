@@ -1,0 +1,71 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "nombre": "Asus core i5 10gen GAMING",
+      "precio": 4000
+    },
+    {
+      "nombre": "Dell serie 9000",
+      "precio": 9000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "lenovo ideapad core i5 10gen",
+      "precio": 3000
+    },
+    {
+      "id": 4,
+      "nombre": "HP pavilon core i5 GAMIN",
+      "precio": 4200
+    },
+    {
+      "id": 5,
+      "nombre": "Dell Latitude core i5 10gen",
+      "precio": 3200
+    },
+    {
+      "id": 6,
+      "nombre": "Dell Vostro core i5 11gen",
+      "precio": 2800
+    },
+    {
+      "id": 7,
+      "nombre": "asus core i5 10gen",
+      "precio": 2700
+    }
+  ],
+  "procesadores": [
+    {
+      "id": 1,
+      "nombre": "i5 11gen",
+      "precio": 1000
+    },
+    {
+      "id": 2,
+      "nombre": "i3 11gen",
+      "precio": 800
+    },
+    {
+      "id": 3,
+      "nombre": "i7 11gen",
+      "precio": 1500
+    },
+    {
+      "id": 4,
+      "nombre": "i3 10gen",
+      "precio": 700
+    },
+    {
+      "id": 5,
+      "nombre": "i5 10gen",
+      "precio": 900
+    },
+    {
+      "id": 6,
+      "nombre": "i7 10gen",
+      "precio": 1600
+    }
+  ]
+}
