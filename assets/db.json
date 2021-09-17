@@ -34,6 +34,31 @@
       "id": 7,
       "nombre": "asus core i5 10gen",
       "precio": 2700
+    },
+    {
+      "nombre": "hp core i3",
+      "precio": 2000,
+      "id": 10
+    },
+    {
+      "nombre": "hp core i5",
+      "precio": 600,
+      "id": 11
+    },
+    {
+      "nombre": "dell gaming",
+      "precio": 7000,
+      "id": 12
+    },
+    {
+      "nombre": "lenovo",
+      "precio": 2000,
+      "id": 13
+    },
+    {
+      "nombre": "gigabite",
+      "precio": 3000,
+      "id": 14
     }
   ],
   "procesadores": [

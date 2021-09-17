@@ -1,4 +1,4 @@
-import { editar, eliminar } from "./js/crud.js";
+import { DeAndEd, insertar } from "./js/crud.js";
 
 const d=document;
 
@@ -18,7 +18,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
             let json = await res.json();
             
             json.forEach(ele=>{
-                console.log(ele);
+               // console.log(ele);
                 $template.querySelector(".nombre").textContent=ele.nombre;
                 $template.querySelector(".precio").textContent=ele.precio;
                 $template.querySelector(".edit").dataset.id=ele.id;
@@ -40,8 +40,8 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     }
 
     getAll();
-    editar(".edit");
-    eliminar(".delete");
+    insertar($form);
+    DeAndEd($form,$title);
     
     /*fetch("http://localhost:3000/laptops")
     .then(res=>res.json())
